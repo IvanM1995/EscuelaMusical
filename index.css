@@ -125,7 +125,7 @@ body a:hover{
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    background-color: wheat;
+    background-color: rgb(204, 164, 99);
     border-radius: 15px;
     
 
@@ -141,5 +141,17 @@ body a:hover{
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
+    border: 2px solid #073e41;
+}
+
+.button{    
+width: 100%;
+padding: 10px;
+margin: 15px;
+border-radius: 6px;
+border-color: #073e41;
+text-align: center;
+
+
 
 }

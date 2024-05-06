@@ -10,12 +10,16 @@
 body{
 margin: 0;
 padding: 0;
-background-color: #0E5658;
+background-color: #CAA6A6;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
+.logo-guitar{
+    width: 50px;
+
+}
 
 .navbar{
     color: black;
@@ -27,11 +31,12 @@ align-items: center;
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
-    background-color: #0e56587e;
-    backdrop-filter: blur(2px);
+    background-color:#944E63;
     font-size: 18px;
     flex-direction:row;
-    width: 100vw;    
+    width: 100vw; 
+    opacity: 90%;  
+    
 }
 
 body a{
@@ -63,7 +68,7 @@ body a:hover{
     background-position: center center;   
     background-image: url("./Img Proyecto/img7-proyecto.jpg");
     border-radius: 15px;
-    box-shadow: 15px 15px #073e41;
+    box-shadow: 15px 15px #944E63;
 
 }
 
@@ -80,7 +85,7 @@ body a:hover{
     background-repeat: no-repeat;
     color:black;
     border-radius: 15px;   
-    box-shadow: 15px 15px #073e41;
+    box-shadow: 15px 15px #944E63;
 }
 
 .header{
@@ -92,22 +97,30 @@ body a:hover{
 
 }
 
+
+.carrousel img{
+        width:calc( 100%/4);
+        display:flex;
+        
+
+}
+
 #S4 .carta{
     display: flex;
-    background-color: rgba(255, 255, 255, 0.74);      
+    background-color: #BB8493;      
     text-align: left; 
     background-size: cover;
     width: 80vw;
     height: 60vh;
-    margin: 18px;
+    margin: 25px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 15px 15px #073e41;
+    box-shadow: 15px 15px #944E63;
 }
 
 #S4 .texto{
     display: flex;
-    color: #0a4a4d;
+    color: #00224D;
     flex-direction: column;
     padding: 10px;  
 }
@@ -125,8 +138,9 @@ body a:hover{
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    background-color: rgb(204, 164, 99);
+    background-color: #BB8493;
     border-radius: 15px;
+    box-shadow: 15px 15px  #704264;
     
 
 }
@@ -141,17 +155,24 @@ body a:hover{
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
-    border: 2px solid #073e41;
+    border: 2px solid #00224D;
 }
 
 .button{    
-width: 100%;
+width: 90%;
 padding: 10px;
 margin: 15px;
 border-radius: 6px;
-border-color: #073e41;
+border-color: #00224D;
 text-align: center;
 
+}
 
+.textarea-mensaje{
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: #00224D;
+    border: 2px solid #00224D;
 
 }

@@ -60,7 +60,7 @@ body a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 60vw;
+    width: 90vw;
     min-height: 100vh;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body a:hover{
     justify-content: center;
     text-align: center;
     background-image: url("./Img Proyecto/img2-proyecto.jpg");
-    width: 60vw;
+    width: 90vw;
     min-height: 100vh;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -93,15 +93,9 @@ body a:hover{
     width: 100%;
 }
 
-#S3{   
-
-}
-
-
-.carrousel img{
-        width:calc( 100%/4);
-        display:flex;
-        
+#S3 h3{
+    font-size: 35px;
+    text-align: center;
 
 }
 
@@ -174,5 +168,45 @@ text-align: center;
     padding: 15px;
     border-color: #00224D;
     border: 2px solid #00224D;
+
+}
+
+
+.carrousel1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0px auto;
+    height: 300px;
+    padding: 10px 0px;
+    max-width: 70vw;
+    overflow: hidden;
+
+
+}
+
+.button1{
+border-radius: 30px;
+background-color: #00224D;
+position: absolute;
+z-index: 4;
+width: 48px;
+height: 48px;
+border: 0;
+cursor: pointer;
+
+}
+
+.button1:focus{
+    outline: 0;
+}
+
+.button1 svg{
+
+    width: 12px;
+    height: 100%;
+    color: white;
+    
 
 }
